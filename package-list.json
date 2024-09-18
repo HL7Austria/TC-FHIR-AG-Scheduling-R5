@@ -1,0 +1,15 @@
+{
+    "package-id": "TC-FHIR-AG-Scheduling-R5",
+    "title": "PICA Implementation Guide",
+    "canonical": "http://hl7.at/fhir/TC-FHIR-AG-Scheduling-R5/R5",
+    "introduction": "IG for the TC-FHIR-AG-Scheduling-R5 FHIR® Profiles.",
+    "list": [
+      {
+        "version": "current",
+        "desc": "Draft",
+        "path": "http://hl7.at/fhir/TC-FHIR-AG-Scheduling-R5/R5",
+        "status": "ci-build",
+        "current": true
+      }
+    ]
+  }

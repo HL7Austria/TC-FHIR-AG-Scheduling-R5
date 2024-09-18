@@ -1,0 +1,57 @@
+# ╭────────────────────────────────────────────────────────────────────────────────────────────────╮
+# │  ACTION REQUIRED: REVIEW AND EDIT THIS FILE TO ENSURE IT ACCURATELY REFLECTS YOUR PROJECT!     │
+# │                                                                                                │
+# │  This file was generated from your existing project files and will be used for SUSHI           │
+# │  configuration from now on. You may delete your package.json as it is no longer needed.        │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+# ╭────────────────────────────ImplementationGuide-PICA.json───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see:                                                                    │
+# │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+id: TC-FHIR-AG-Scheduling-R5
+canonical: http://hl7.at/fhir/TC-FHIR-AG-Scheduling-R5/R5
+version: 0.1.0
+name: TC-FHIR-AG-Scheduling-R5ImplementationGuide
+title: TC-FHIR-AG-Scheduling-R5 Implementation Guide
+status: active
+publisher: HL7® Austria, TC FHIR®
+contact:
+  - name: TC FHIR®
+description: An Implementation Guide for AG FHIR Appointment Scheduling.
+license: CC0-1.0
+fhirVersion: 5.0.0
+parameters:
+  show-inherited-invariants: false
+copyrightYear: 2024+
+releaseLabel: draft
+
+# ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
+# │  To control the ig.ini using this config, uncomment and set the "template" property.           │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+# template: fhir.base.template
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To control the menu.xml using this config, uncomment and set the "menu" property.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+# menu:
+#   IG Home: index.html
+#   Table of Contents: toc.html
+#   Artifacts Summary: artifacts.html
+#   Other Resources:
+#     "FHIR Spec ": new-tab external {{site.data.fhir.path}}index.html
+
+# ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
+# │  To control the package-list.json using this config, uncomment and set the "history" property. │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+# history:
+#   introduction: An Implementation Guide for the HL7 Austria FHIR Core Profiles.
+#   current:
+#     version: current
+#     desc: Draft
+#     path: http://hl7.at/fhir/HL7ATCoreProfiles/4.0.1
+#     status: ci-build
+#     current: true
