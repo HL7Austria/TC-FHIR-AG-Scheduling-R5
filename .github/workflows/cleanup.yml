@@ -1,0 +1,19 @@
+# Github Actions HL7 - remove deployment folder after branch deletion in hl7austria.github.io
+name: clean deployment
+on: delete
+jobs:
+  delete:
+    if: github.event.ref_type == 'branch'
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout the hl7austria.github.io
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.ROBO_OLIVER }}
+        repository: HL7Austria/hl7austria.github.io
+        path: .
+        ref: pages
+    - name: remove folder for deleted branch
+      run: |
+        git status
+        
