@@ -1,0 +1,10 @@
+input-cache/**
+fsh-generated/**
+output/**
+temp/**
+input-cache/**
+template/**
+TC-FHIR-AG-Scheduling-R5/_genonce.bat
+TC-FHIR-AG-Scheduling-R5/_genonce.sh
+TC-FHIR-AG-Scheduling-R5/_updatePublisher.bat
+TC-FHIR-AG-Scheduling-R5/_updatePublisher.sh
