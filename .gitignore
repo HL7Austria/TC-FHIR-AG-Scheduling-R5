@@ -8,3 +8,9 @@ TC-FHIR-AG-Scheduling-R5/_genonce.bat
 TC-FHIR-AG-Scheduling-R5/_genonce.sh
 TC-FHIR-AG-Scheduling-R5/_updatePublisher.bat
 TC-FHIR-AG-Scheduling-R5/_updatePublisher.sh
+_gencontinuous.bat
+_gencontinuous.sh
+_genonce.bat
+_genonce.sh
+_updatePublisher.bat
+_updatePublisher.sh
