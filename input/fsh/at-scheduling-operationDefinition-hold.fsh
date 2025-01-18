@@ -20,11 +20,17 @@ Usage: #definition
 * instance = false
 * parameter[0].name = #slot-reference
 * parameter[=].use = #in
-* parameter[=].min = 1
+* parameter[=].min = 0
 * parameter[=].max = "1"
 * parameter[=].documentation = "A resource id for one of proposed Slots returned by a prior $find operation (e.g., Resource/1234).  References can be to an absolute URL, but servers only perform this operation on their own slots."
 * parameter[=].type = #Reference
 * parameter[=].targetProfile = Canonical(HL7ATSchedulingSlot)
+* parameter[+].name = #slot-identifier
+* parameter[=].use = #in
+* parameter[=].min = 0
+* parameter[=].max = "*"
+* parameter[=].documentation = "When slot-identifiers are provided, the server is expected to perform an internal lookup to identify the corresponding slot instance. The server SHALL reject the request if the provided identifiers do not resolve to a single slot instance."
+* parameter[=].type = #Identifier
 * parameter[+].name = #return
 * parameter[=].use = #out
 * parameter[=].min = 1
