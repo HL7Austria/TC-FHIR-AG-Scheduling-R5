@@ -10,19 +10,17 @@ Id:             at-scheduling-appointment
 Title:          "HL7® AT Scheduling Appointment Profile"
 Description:    "HL7® Austria FHIR® Scheduling Profile for appointment data in Austria."
 
-// Replace reference to HealthcareService with HL7ATSchedulingHealthcareService profile
+// Replace references to FHIR resources with references to profiles
 * serviceType only CodeableReference(HL7ATSchedulingHealthcareService)
+// Add binding to AtSchedulungServiceType
 * serviceType from AtSchedulingServiceType (extensible)
 
-// Replace all references to Appointment with HL7ATSchedulingAppointment profile
 * replaces only Reference(HL7ATSchedulingAppointment)
 * previousAppointment only Reference(HL7ATSchedulingAppointment)
 * originatingAppointment only Reference(HL7ATSchedulingAppointment)
 
-// Replace reference to Slot with HL7ATSchedulingSlot profile
 * slot only Reference(HL7ATSchedulingSlot)
 
-// Replace reference to Patient with HL7ATCorePatient profile
 * subject only Reference(HL7ATCorePatient or Group)
 
 // Participant slicing Inspired by https://github.com/gematik/spec-ISiK-Terminplanung/blob/main-stufe-4/Resources/input/fsh/ISiKTermin.fsh
