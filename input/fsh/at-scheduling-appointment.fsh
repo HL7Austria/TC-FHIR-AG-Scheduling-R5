@@ -12,6 +12,7 @@ Description:    "HL7® Austria FHIR® Scheduling Profile for appointment data in
 
 // Replace reference to HealthcareService with HL7ATSchedulingHealthcareService profile
 * serviceType only CodeableReference(HL7ATSchedulingHealthcareService)
+* serviceType from AtSchedulingServiceType (extensible)
 
 // Replace all references to Appointment with HL7ATSchedulingAppointment profile
 * replaces only Reference(HL7ATSchedulingAppointment)

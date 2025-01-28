@@ -12,3 +12,5 @@ Description:    "HL7® Austria FHIR® Scheduling Profile for healthcareservice d
 
 * providedBy only Reference(HL7ATCoreOrganization)
 * offeredIn only Reference(HL7ATSchedulingHealthcareService)
+
+* type from AtSchedulingServiceType (extensible)

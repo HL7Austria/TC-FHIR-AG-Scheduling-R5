@@ -13,3 +13,5 @@ Description:    "HL7® Austria FHIR® Scheduling Profile for slot data in Austri
 
 * serviceType only CodeableReference(HL7ATSchedulingHealthcareService)
 * schedule only Reference(HL7ATSchedulingSchedule)
+
+* serviceType from AtSchedulingServiceType (extensible)
