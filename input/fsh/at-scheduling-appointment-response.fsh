@@ -9,3 +9,7 @@ Parent:         AppointmentResponse
 Id:             at-scheduling-appointmentresponse
 Title:          "HL7® AT Scheduling AppointmentResponse Profile"
 Description:    "HL7® Austria FHIR® Scheduling Profile for appointmentresponse data in Austria."
+
+
+* appointment only Reference(HL7ATSchedulingAppointment)
+* actor only Reference(HL7ATCorePatient or Group or HL7ATCorePractitioner or HL7ATCorePractitionerRole or RelatedPerson or Device or HL7ATSchedulingHealthcareService or Location)

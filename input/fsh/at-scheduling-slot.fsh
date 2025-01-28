@@ -9,3 +9,7 @@ Parent:         Slot
 Id:             at-scheduling-slot
 Title:          "HL7® AT Scheduling Slot Profile"
 Description:    "HL7® Austria FHIR® Scheduling Profile for slot data in Austria."
+
+
+* serviceType only CodeableReference(HL7ATSchedulingHealthcareService)
+* schedule only Reference(HL7ATSchedulingSchedule)

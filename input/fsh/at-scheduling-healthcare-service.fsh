@@ -9,3 +9,6 @@ Parent:         HealthcareService
 Id:             at-scheduling-healthcareservice
 Title:          "HL7® AT Scheduling HealthcareService Profile"
 Description:    "HL7® Austria FHIR® Scheduling Profile for healthcareservice data in Austria."
+
+* providedBy only Reference(HL7ATCoreOrganization)
+* offeredIn only Reference(HL7ATSchedulingHealthcareService)
