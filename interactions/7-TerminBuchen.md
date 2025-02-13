@@ -9,6 +9,6 @@ Akteure             | Transaktionen                                             
 
 Parameters (In)
 
-|Name               |	Cardinality	|Type|	Documentation|
+Name               |	Cardinality	|Type|	Documentation|
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------|-------------|
 ||<br><br>|||
