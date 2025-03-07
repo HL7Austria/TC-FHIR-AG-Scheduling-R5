@@ -1,2 +1,0 @@
-## Termin absagen
-Todo: Alles
