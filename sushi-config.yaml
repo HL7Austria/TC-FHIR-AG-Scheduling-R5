@@ -47,6 +47,9 @@ dependencies:
 pages:
   index.md:
     title: Home
+  interactions.md:
+    title: Interactions
+  
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview
@@ -77,6 +80,7 @@ pages:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Interactions: interactions.html
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
