@@ -1,24 +1,24 @@
-# Interactions
+This implementation guide supports the following interactions for a scheduling process.
 
-## Find available HealthcareService-Providers ($findHSP)
+### Find available HealthcareService-Providers ($findHSP)
 {% include interactions/find-healthcareServiceProviders.md %}
-## Transmit Patient Information
+### Transmit Patient Information
 {% include interactions/transmit-patient.md %}
-## Find available HealthcareServices
+### Find available HealthcareServices
 {% include interactions/find-healthcareServices.md %}
-## Find available Schedules
+### Find available Schedules
 {% include interactions/find-schedules.md %}
-## Find available Slots for potential Appointments
+### Find available Slots for potential Appointments
 {% include interactions/find-slots.md %}
-## Reserve Slot ($hold)
+### Reserve Slot ($hold)
 {% include interactions/hold-slot.md %}
-## Book Appointment
+### Book Appointment
 {% include interactions/book-appointment.md %}
-## Cancel Appointment
+### Cancel Appointment
 {% include interactions/cancel-appointment.md %}
-## Postpone Appointment
+### Postpone Appointment
 {% include interactions/postpone-appointment.md %}
-## Update Appointment information
+### Update Appointment information
 {% include interactions/update-appointment.md %}
-## Find existing Appointments
+### Find existing Appointments
 {% include interactions/find-existing-appointments.md %}
