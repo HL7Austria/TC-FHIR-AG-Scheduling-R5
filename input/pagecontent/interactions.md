@@ -1,11 +1,11 @@
 This implementation guide supports the following interactions for a scheduling process.
 
-### Find available HealthcareService-Providers ($findHSP)
-{% include interactions/find-healthcareServiceProviders.md %}
 ### Transmit Patient Information
 {% include interactions/transmit-patient.md %}
 ### Find available HealthcareServices
 {% include interactions/find-healthcareServices.md %}
+### Find available HealthcareService-Providers ($findHSP)
+{% include interactions/find-healthcareServiceProviders.md %}
 ### Find available Schedules
 {% include interactions/find-schedules.md %}
 ### Find available Slots for potential Appointments
