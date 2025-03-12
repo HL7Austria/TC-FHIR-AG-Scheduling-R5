@@ -1,5 +1,5 @@
-Um buchbare Behandlungsleistungen (HealthcareService) abzurufen zu können, werden diese vom Scheduling Server zur Verfügung gestellt. Dabei ist es möglich, die Behandlungsleistungen durch Filteroptionen einzugrenzen.
-TODO: Referenz auf HealthcareService Profil
-TODO: Hinweis ValueSet specialty
-TODO: Hinweis Suche nach Region
-TODO: Suche nach Practitioner (providedBy referenziert nur auf Organization)
+<figure><img src="interactions/find-healthcareServices.svg"></figure>
+
+A Scheduling Client can fetch bookable HealthcareServices from a Scheduling Server. [Search parameters](StructureDefinition-at-scheduling-healthcareservice.html#search-parameters) of the [HL7® AT Scheduling HealthcareService Profile](StructureDefinition-at-scheduling-healthcareservice.html) can be used to filter the results.
+
+\\ ToDo: Example Requests

@@ -1,0 +1,1 @@
+This Profile is used in the [Find available Schedules Interaction](interactions.html#find-available-schedules).
