@@ -1,0 +1,1 @@
+This Profile is used in the [Find existing Appointments](interactions.html#find-existing-appointments) and the [$book Operation](OperationDefinition-appointment-book.html).
