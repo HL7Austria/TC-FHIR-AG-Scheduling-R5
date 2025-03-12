@@ -1,12 +1,9 @@
 <mxfile host="65bd71144e">
     <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-        <mxGraphModel dx="1472" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1401" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="1Q3aQoQ077KybnQAMOsV-1" value="3. Abfrage von Schedules" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="80" y="50" width="140" height="30" as="geometry"/>
-                </mxCell>
                 <mxCell id="1Q3aQoQ077KybnQAMOsV-2" value="Scheduling Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
                     <mxGeometry x="110" y="80" width="100" height="160" as="geometry"/>
                 </mxCell>
@@ -21,13 +18,13 @@
                 <mxCell id="1Q3aQoQ077KybnQAMOsV-5" value="Scheduling Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
                     <mxGeometry x="535" y="80" width="140" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="1Q3aQoQ077KybnQAMOsV-7" value="Übermittlung existierender Terminlisten" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" parent="1Q3aQoQ077KybnQAMOsV-5" edge="1" target="1Q3aQoQ077KybnQAMOsV-3">
+                <mxCell id="1Q3aQoQ077KybnQAMOsV-7" value="Response containing available Schedules" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" parent="1Q3aQoQ077KybnQAMOsV-5" target="1Q3aQoQ077KybnQAMOsV-3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-265" y="109.99999999999989" as="targetPoint"/>
                         <mxPoint x="65" y="109.99999999999989" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1Q3aQoQ077KybnQAMOsV-8" value="Abfrage von Terminlisten (Schedule)" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="1Q3aQoQ077KybnQAMOsV-3" target="1Q3aQoQ077KybnQAMOsV-6" edge="1">
+                <mxCell id="1Q3aQoQ077KybnQAMOsV-8" value="GET request for available Schedules" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="1Q3aQoQ077KybnQAMOsV-3" target="1Q3aQoQ077KybnQAMOsV-6" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="265" y="160" as="sourcePoint"/>
                     </mxGeometry>
