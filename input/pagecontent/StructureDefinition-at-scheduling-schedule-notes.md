@@ -1,7 +1,8 @@
 #### Search parameters
 
 ##### Required Parameters
-At least one of the parameters [actor](https://www.hl7.org/fhir/schedule-search.html#Schedule-actor) and [service-type-reference](https://www.hl7.org/fhir/schedule-search.html#Schedule-service-type-reference) is required. Additionally [date](https://www.hl7.org/fhir/schedule-search.html#Schedule-date) is always required.
+
+At least one of the parameters [actor](https://www.hl7.org/fhir/schedule-search.html#Schedule-actor) or [service-type-reference](https://www.hl7.org/fhir/schedule-search.html#Schedule-service-type-reference) is required. Additionally [date](https://www.hl7.org/fhir/schedule-search.html#Schedule-date) is always required.
 
 | Name                                                                                                    | Type                                                        | Description                                                                                                                                                               | Expression                                                                                                                                                     | In Common |
 | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
