@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+    <diagram id="NNB7iRwVCldDlz30oEYi" name="Page-1">
+        <mxGraphModel dx="361" dy="-30" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Scheduling Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="880" width="100" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="2" vertex="1">
+                    <mxGeometry x="45" y="70" width="10" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Select Slot" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-15" y="70" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Scheduling Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="880" width="100" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="5" vertex="1">
+                    <mxGeometry x="45" y="80" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;" parent="1" edge="1" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="135" y="959.9999999999999" as="sourcePoint"/>
+                        <mxPoint x="466" y="960" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="POST request for holding a Slot" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0746" y="2" relative="1" as="geometry">
+                        <mxPoint y="-8" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=1.004;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=-0.295;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="570" y="1000" as="sourcePoint"/>
+                        <mxPoint x="135.03999999999996" y="1000" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Parameters&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;response&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;(reserved Slot&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&amp;nbsp;and OperationOutcome)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9" vertex="1" connectable="0">
+                    <mxGeometry x="0.1213" y="-2" relative="1" as="geometry">
+                        <mxPoint x="29" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

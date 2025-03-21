@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+    <diagram id="nF5cAEqjQ8MR_H2pkKnz" name="Page-1">
+        <mxGraphModel dx="524" dy="328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Scheduling Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="880" width="100" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="2" vertex="1">
+                    <mxGeometry x="45" y="70" width="10" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Trigger" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-15" y="70" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Scheduling Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="880" width="100" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="5" vertex="1">
+                    <mxGeometry x="45" y="80" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=-0.043;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="135" y="959.5" as="sourcePoint"/>
+                        <mxPoint x="409.5" y="959.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="POST request for booking appointment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8" vertex="1" connectable="0">
+                    <mxGeometry x="-0.296" relative="1" as="geometry">
+                        <mxPoint x="41" y="-10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;dashed=1;entryX=1.019;entryY=0.827;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="3" edge="1" source="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400.7" y="1000" as="sourcePoint"/>
+                        <mxPoint x="140" y="1000" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Parameters response (Appointment&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;and OperationO&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;utcome)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="10" vertex="1" connectable="0">
+                    <mxGeometry x="0.1353" y="-1" relative="1" as="geometry">
+                        <mxPoint x="19" y="-9" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

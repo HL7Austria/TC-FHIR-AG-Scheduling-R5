@@ -1,13 +1,2 @@
-Todo: Alles
-
-{{render:/images/interactions/7-TerminBuchen.png}}
-
-Akteure             | Transaktionen                                                                                                                   | Optionalität |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------|-------------|
-||<br><br>| Verplichtend           |
-
-Parameters (In)
-
-Name               |	Cardinality	|Type|	Documentation|
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------|-------------|-------------------------------------|
-||<br><br>|||
+<figure><img src="interactions/book-appointment.svg"></figure>
+The scheduling client books an appointment by sending an [HL7® AT Scheduling Appointment Profile](StructureDefinition-at-scheduling-appointment.html) resource with `status` "proposed" to the Scheduling Server. The Scheduling Server returns a [Parameters](https://www.hl7.org/fhir/parameters.html) response containing the requested Appointment and an [OperationOutcome](https://www.hl7.org/fhir/operationoutcome.html). The Appointment resource will have an updated status of `booked` if the request is approved or "cancelled" if it is rejected. The corresponding operation definition is the [$book](OperationDefinition-appointment-book.html) operation.

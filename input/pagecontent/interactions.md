@@ -1,7 +1,7 @@
 This implementation guide supports the following interactions for a scheduling process.
 
 ### Transmit Patient Information
-{% include interactions/transmit-patient.md %}
+{% include interactions/create-patient.md %}
 ### Find available HealthcareServices
 {% include interactions/find-healthcareServices.md %}
 ### Find available HealthcareService-Providers ($findHSP)
