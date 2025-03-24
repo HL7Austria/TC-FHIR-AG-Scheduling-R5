@@ -47,8 +47,8 @@ dependencies:
 pages:
   index.md:
     title: Home
-  usecases.md:
-    title: Use-Cases
+  scenarios.md:
+    title: Scenarios
   interactions.md:
     title: Interactions
   
@@ -82,7 +82,7 @@ pages:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Use-Cases: use-cases.html
+  Scenarios: scenarios.html
   Interactions: interactions.html
   Artifacts: artifacts.html
 
