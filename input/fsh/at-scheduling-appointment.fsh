@@ -62,3 +62,5 @@ Description:    "HL7® Austria FHIR® Scheduling Profile for appointment data in
 * participant[HL7ATSchedulingHealthcareService].actor.reference 1..1 MS
 * specialty MS
   * ^comment = "ToDo"
+
+* participant.extension contains VirtualServiceDetailExt named virtualService 0..1
