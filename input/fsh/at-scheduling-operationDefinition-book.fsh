@@ -22,12 +22,12 @@ Usage: #definition
 * parameter[=].use = #in
 * parameter[=].min = 1
 * parameter[=].max = "1"
-* parameter[=].documentation = "The full appointment resource is needed for this operation. The appointment SHALL have the status \"proposed\"."
+* parameter[=].documentation = "The full appointment resource is needed for this operation. The appointment SHALL have the status ```proposed```."
 * parameter[=].type = #Resource
 * parameter[=].targetProfile = Canonical(HL7ATSchedulingAppointment)
 * parameter[+].name = #return
 * parameter[=].use = #out
 * parameter[=].min = 1
 * parameter[=].max = "1"
-* parameter[=].documentation = "The response will be a Parameters resource consisting of the requested Appointment resource and an OperationOutcome with errors, warnings or information as a result of processing the operation. The Appointment resource will have an updated `status` of \"booked\" if the request is approved or  \"cancelled\" if it is rejected."
+* parameter[=].documentation = "The response will be a Parameters resource consisting of the requested Appointment resource and an OperationOutcome with errors, warnings or information as a result of processing the operation. The Appointment resource will have an updated `status` of ```booked``` if the request is approved, ```pending``` if it needs to be manually confirmed or  ```cancelled``` if it is rejected."
 * parameter[=].type = #Parameters
