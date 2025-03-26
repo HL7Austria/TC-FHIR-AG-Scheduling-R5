@@ -47,6 +47,8 @@ dependencies:
 pages:
   index.md:
     title: Home
+  scenarios.md:
+    title: Scenarios
   interactions.md:
     title: Interactions
   
@@ -80,6 +82,7 @@ pages:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Scenarios: scenarios.html
   Interactions: interactions.html
   Artifacts: artifacts.html
 
