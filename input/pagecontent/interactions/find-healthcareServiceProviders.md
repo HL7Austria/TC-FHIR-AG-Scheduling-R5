@@ -4,8 +4,6 @@ Depending on the scheduling scenario that is implementented ("peer-to-peer" appo
 
 For such a purpose, this IG provides a new operation called [$findHSP](OperationDefinition-healthcareService-provider-find.html) (find Healthcare Service Provider).
 
-TODO: include diagram
-
 This operation uses either a full HealthCareService resource as input parameter or dedicated codes for it like ```HealthcareService.category```, ```HealthcareService.type``` or ```HealthcareService.specialty```.
 
 In addition to that a Scheduling Client can provide further filter criteria in its search like:
