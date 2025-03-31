@@ -1,53 +1,53 @@
 <mxfile host="65bd71144e">
     <diagram name="Seite-1" id="q25PIQKFB_0P2NkEKlFj">
-        <mxGraphModel dx="928" dy="-675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1590" dy="-323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Scheduling Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="3puozs7UxtqKZBK5fwl_-8" value="Scheduling Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
                     <mxGeometry x="121" y="1720" width="100" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="2">
+                <mxCell id="3puozs7UxtqKZBK5fwl_-9" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3puozs7UxtqKZBK5fwl_-8" vertex="1">
                     <mxGeometry x="45" y="70" width="10" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="Scheduling Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="3puozs7UxtqKZBK5fwl_-10" value="Scheduling Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
                     <mxGeometry x="421" y="1720" width="140" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="4">
+                <mxCell id="3puozs7UxtqKZBK5fwl_-11" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3puozs7UxtqKZBK5fwl_-10" vertex="1">
                     <mxGeometry x="65" y="80" width="10" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Postponement of &#xa;Appointment" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="4">
+                <mxCell id="3puozs7UxtqKZBK5fwl_-12" value="Update of &#xa;Appointment Information" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3puozs7UxtqKZBK5fwl_-10" edge="1">
                     <mxGeometry x="-1" y="-11" relative="1" as="geometry">
                         <mxPoint x="135" y="80" as="sourcePoint"/>
                         <mxPoint x="75" y="80" as="targetPoint"/>
                         <mxPoint x="4" y="1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="7" value="Notify participants" style="verticalAlign=bottom;endArrow=none;entryX=0;entryY=0;shadow=0;strokeWidth=1;startArrow=classic;startFill=1;endFill=0;dashed=1;strokeColor=#CCCCCC;fontColor=#CCCCCC;" edge="1" parent="1">
+                <mxCell id="3puozs7UxtqKZBK5fwl_-13" value="Notify participants" style="verticalAlign=bottom;endArrow=none;entryX=0;entryY=0;shadow=0;strokeWidth=1;startArrow=classic;startFill=1;endFill=0;dashed=1;strokeColor=#CCCCCC;fontColor=#CCCCCC;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="176" y="1810" as="sourcePoint"/>
                         <mxPoint x="486.0000000000002" y="1810" as="targetPoint"/>
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" style="edgeStyle=none;html=1;entryX=-0.108;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                <mxCell id="2" style="edgeStyle=none;html=1;entryX=-0.108;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="176" y="1850" as="sourcePoint"/>
                         <mxPoint x="484.9200000000001" y="1850" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="GET Request for postponed Appointment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8">
+                <mxCell id="5" value="GET Request for updated Appointment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2">
                     <mxGeometry x="-0.4091" y="1" relative="1" as="geometry">
                         <mxPoint x="53" y="-9" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="10" style="edgeStyle=none;html=1;entryX=1.053;entryY=0.654;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                <mxCell id="3" style="edgeStyle=none;html=1;entryX=1.053;entryY=0.654;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="486" y="1860" as="sourcePoint"/>
                         <mxPoint x="176.52999999999997" y="1860" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="11" value="Response containting postponed Appointment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="10">
+                <mxCell id="6" value="Response containting updated Appointment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3">
                     <mxGeometry x="0.2999" y="-2" relative="1" as="geometry">
                         <mxPoint x="35" y="12" as="offset"/>
                     </mxGeometry>

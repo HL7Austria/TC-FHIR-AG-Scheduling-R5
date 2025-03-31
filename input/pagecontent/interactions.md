@@ -1,6 +1,6 @@
 This implementation guide supports the following interactions for a scheduling process.
 
-### Transmit Patient Information
+### Create Patient
 {% include interactions/create-patient.md %}
 ### Find available HealthcareServices
 {% include interactions/find-healthcareServices.md %}
@@ -12,7 +12,7 @@ This implementation guide supports the following interactions for a scheduling p
 {% include interactions/find-slots.md %}
 ### Reserve Slot ($hold)
 {% include interactions/hold-slot.md %}
-### Book Appointment
+### Book Appointment ($book)
 {% include interactions/book-appointment.md %}
 ### Cancel Appointment
 {% include interactions/cancel-appointment.md %}

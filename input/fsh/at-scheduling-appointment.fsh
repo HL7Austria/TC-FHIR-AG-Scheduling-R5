@@ -27,9 +27,6 @@ Description:    "HL7® Austria FHIR® Scheduling Profile for appointment data in
 * participant MS
   * actor 1..1 MS
 
-// ToDo: Limiting to profiles doesn't work because slices reference base resources instead of profiles. Is this desired?
-//  * actor only Reference(HL7ATCorePatient or Group or HL7ATCorePractitioner or HL7ATCorePractitionerRole or CareTeam or RelatedPerson or Device or HL7ATSchedulingHealthcareService or Location)
-
     * display MS
       * ^comment = "ToDo"
   * status 1..1 MS
