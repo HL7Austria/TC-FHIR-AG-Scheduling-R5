@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActorDefinition xmlns="http://hl7.org/fhir">
+  <id value="at-scheduling-actor-scheduling-server"/>
+  <title value="HL7® AT Scheduling Server ActorDefinition"/> 
+  <description value="A system providing the FHIR API for appointment booking and related data"/>
+  <type value="system"/> 
+  <documentation value="A Scheduling Server serves data relevant to appointment scheduling (Healthcare Service Providers, Healthcare Services, available time slots, etc.) and provides services such as: creating patients, booking/editing/cancelling appointments."/>
+  <!-- <capabilities value="ToDo"/> -->
+</ActorDefinition>
