@@ -18,8 +18,8 @@ At least one of the parameters [actor](https://www.hl7.org/fhir/schedule-search.
     <tr>
       <td markdown="span">[actor](https://www.hl7.org/fhir/schedule-search.html#Schedule-actor)</td>
       <td markdown="span">[reference](https://www.hl7.org/fhir/search.html#reference)</td>
-      <td markdown="span">**TODO: Organization not part of actor** The individual(HealthcareService, Practitioner, Location, ...) to find a Schedule for **AND/OR service-type-reference required**</td>
-      <td markdown="span">Schedule.actor ([Organization](https://www.hl7.org/fhir/organization.html), [Practitioner](https://www.hl7.org/fhir/practitioner.html), [Practitioner Role]())</td>
+      <td markdown="span">The individual(HealthcareService, Practitioner, Location, ...) to find a Schedule for **AND/OR service-type-reference required</td>
+      <td markdown="span">Schedule.actor ([Practitioner](https://www.hl7.org/fhir/practitioner.html), [Practitioner Role]())</td>
       <td markdown="span"></td>
     </tr>
     <tr>
