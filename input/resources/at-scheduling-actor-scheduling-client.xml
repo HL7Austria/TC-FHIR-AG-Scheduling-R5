@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActorDefinition xmlns="http://hl7.org/fhir">
+  <id value="at-scheduling-actor-scheduling-client"/>
+  <title value="HL7® AT Scheduling Client ActorDefinition"/> 
+  <description value="A system consuming the FHIR API provided by a Scheduling Server"/>
+  <type value="system"/> 
+  <documentation value="A Scheduling Client requests data relevant to appointment scheduling (Healthcare Service Providers, Healthcare Services, available time slots, etc.) using parameters from a Scheduling Server and books/edits/cancels appointments for a specific patient."/>
+  <!-- <capabilities value="ToDo"/> -->
+</ActorDefinition>
