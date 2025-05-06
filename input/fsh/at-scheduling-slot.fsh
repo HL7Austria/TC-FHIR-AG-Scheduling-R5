@@ -17,4 +17,6 @@ Description:    "HL7® Austria FHIR® Scheduling Profile for slot data in Austri
 // Add binding to AtSchedulungServiceType
 * serviceType from AtSchedulingServiceType (extensible)
 
-* extension contains SlotEncounterClassExt named SlotEncounterClass 0..*
+* extension contains 
+    SlotEncounterClassExt named SlotEncounterClass 0..* and
+    SlotBookingUrlExt named bookingURL 0..1
