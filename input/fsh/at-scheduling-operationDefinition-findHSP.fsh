@@ -23,8 +23,8 @@ Usage: #definition
 * parameter[=].min = 0
 * parameter[=].max = "1"
 * parameter[=].documentation = "The full HealthcareService resource can be provided for this operation. The HealthcareService SHALL have be active (HealthcareService.active=true). "
-* parameter[=].type = #Resource
-* parameter[=].targetProfile = Canonical(HL7ATSchedulingHealthcareService)
+* parameter[=].type = #string
+* parameter[=].searchType = #reference
 * parameter[+].name = #healthcareService-category
 * parameter[=].use = #in
 * parameter[=].min = 0
@@ -51,8 +51,8 @@ Usage: #definition
 * parameter[=].min = 0
 * parameter[=].max = "*"
 * parameter[=].documentation = "The (physical) location where a healthcare service should be provided can be used as a search parameter."
-* parameter[=].type = #Reference
-* parameter[=].targetProfile = Canonical(Location)
+* parameter[=].type = #string
+* parameter[=].searchType = #composite
 * parameter[+].name = #healthcareService-zipCodeArea
 * parameter[=].use = #in
 * parameter[=].min = 0
@@ -65,7 +65,8 @@ Usage: #definition
 * parameter[=].min = 0
 * parameter[=].max = "*"
 * parameter[=].documentation = "The desired availabilities for the healthcare service. "
-* parameter[=].type = #Availability
+* parameter[=].type = #string
+* parameter[=].searchType = #composite
 * parameter[+].name = #result
 * parameter[=].use = #out
 * parameter[=].min = 1
