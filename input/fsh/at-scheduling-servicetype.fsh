@@ -1,3 +1,5 @@
 ValueSet: AtSchedulingServiceType
 Id: AtSchedulingServiceType
-Description: "ToDo"
+Title: "AT Scheduling Service Type"
+Description: "This is a placeholder for a ValueSet of bookable service types."
+* ^experimental = true

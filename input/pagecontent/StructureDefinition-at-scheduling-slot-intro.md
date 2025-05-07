@@ -1,1 +1,1 @@
-This Profile is used in the [Find available Slots for potential Appointments](interactions.html#find-available-slots).
+This Profile is used in the [Find available Slots for potential Appointments](interactions.html#find-available-slots-for-potential-appointments).
