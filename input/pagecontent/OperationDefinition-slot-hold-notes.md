@@ -1,5 +1,5 @@
 
-This operation is used by the Scheduling Client and Scheduling Server Actors. The Hold Slot operation is used to request that a specific appointment-slot (selected from one of the available potential slots returned with the response of a preceding query) is held by the Scheduling Server, until the appointment is booked, cancelled, or the hold on the slot expires.
+This operation is used by the Scheduling Client and Scheduling Server Actors. The Hold Slot operation is used to request that a specific appointment-slot (selected from one of the available potential slots returned with the response of a preceding query) is held by the Scheduling Server, until the appointment is booked, cancelled, or the hold on the slot is released or expires.
 
 The Scheduling Server is expected to hold the necessary time slots and resources for the potential appointment to take place at the given time and for the given duration.
 
