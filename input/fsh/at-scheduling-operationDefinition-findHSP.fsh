@@ -10,7 +10,7 @@ Usage: #definition
 
 * name = "Find_HealthcareService_Provider"
 * status = #active
-* kind = #query
+* kind = #operation
 * description = "A query operation that allows to search for healthcare service providers that offer a specific healthcare service. The general information about the HealthcareService identification itself is already available in advance, either as resource or via codes. "
 * affectsState = false
 * code = #findHSP
@@ -23,8 +23,8 @@ Usage: #definition
 * parameter[=].min = 0
 * parameter[=].max = "1"
 * parameter[=].documentation = "The full HealthcareService resource can be provided for this operation. The HealthcareService SHALL have be active (HealthcareService.active=true). "
-* parameter[=].type = #string
-* parameter[=].searchType = #reference
+* parameter[=].type = #Reference
+* parameter[=].targetProfile = Canonical(HL7ATSchedulingHealthcareService)
 * parameter[+].name = #healthcareService-category
 * parameter[=].use = #in
 * parameter[=].min = 0
@@ -51,8 +51,8 @@ Usage: #definition
 * parameter[=].min = 0
 * parameter[=].max = "*"
 * parameter[=].documentation = "The (physical) location where a healthcare service should be provided can be used as a search parameter."
-* parameter[=].type = #string
-* parameter[=].searchType = #composite
+* parameter[=].type = #Reference
+* parameter[=].targetProfile = Canonical(Location)
 * parameter[+].name = #healthcareService-zipCodeArea
 * parameter[=].use = #in
 * parameter[=].min = 0
@@ -65,8 +65,7 @@ Usage: #definition
 * parameter[=].min = 0
 * parameter[=].max = "*"
 * parameter[=].documentation = "The desired availabilities for the healthcare service. "
-* parameter[=].type = #string
-* parameter[=].searchType = #composite
+* parameter[=].type = #Availability
 * parameter[+].name = #result
 * parameter[=].use = #out
 * parameter[=].min = 1
