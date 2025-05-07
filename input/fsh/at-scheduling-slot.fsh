@@ -19,4 +19,4 @@ Description:    "HL7® Austria FHIR® Scheduling Profile for slot data in Austri
 
 * extension contains 
     SlotEncounterClassExt named SlotEncounterClass 0..* and
-    SlotBookingUrlExt named bookingURL 0..1
+    AppointmentBookingUrlExt named bookingURL 0..1
