@@ -9,22 +9,29 @@ Context: Appointment.participant
 //* value[x] only VirtualServiceDetail
 
 
+
 // // workaround: redefine VirtualService as complex extension instead of using VirtualServiceDetails Metadata type
 * extension contains
     channelType 1..1 D and
-  //  address 0..* D and
-     additionalInfoURL 0..1 D and
-     maxParticipants 0..1 D and
-     sessionKey 0..1 D
+    address 0..* D and
+    additionalInfoURL 0..1 D and
+    maxParticipants 0..1 D and
+    sessionKey 0..1 D
 
 * extension[channelType].value[x] only Coding
 * extension[channelType].valueCoding from VirtualServiceType (required)
 
-//* extension[address] ^short = "contact address/number."
-//* extension[address.addressUrl].value[x] only url
-//* extension[address.addressString].value[x] only string
-//* extension[address.addressContactPoint].value[x] only ContactPoint
-//* extension[address.addressExtendedContactDetail].value[x] only ExtendedContactDetail
+* extension[address] ^short = "contact address/number."
+* extension[address] contains
+    addressUrl 0..* D and
+    addressString 0..* D and
+    addressContactPoint 0..* D and
+    addressExtendedContactDetail 0..* D
+
+* extension[address][addressUrl].value[x] only url
+* extension[address][addressString].value[x] only string
+* extension[address][addressContactPoint].value[x] only ContactPoint
+* extension[address][addressExtendedContactDetail].value[x] only ExtendedContactDetail
 
 * extension[additionalInfoURL] ^short = "Address to see alternative connection details"
 * extension[additionalInfoURL].value[x] only url
