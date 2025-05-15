@@ -10,9 +10,9 @@ Usage: #example
 * created = "2025-05-10T14:23:00+02:00"
 * participant[0].actor = Reference(Patient/HL7ATCorePatientExample01) "Max Mustermann"
 * participant[=].status = #accepted
-* participant[=].required = #true
+* participant[=].required = true
 * participant[+].actor = Reference(Practitioner/HL7ATCorePractitionerExample01) "Melanie Musterärztin"
 * participant[=].status = #accepted
-* participant[=].required = #true
+* participant[=].required = true
 * appointmentType = $v2-0276#CHECKUP "Routineuntersuchung"
 * minutesDuration = 30
