@@ -1,7 +1,7 @@
 Alias: $v2-0276 = http://terminology.hl7.org/CodeSystem/v2-0276
 
 Instance: HL7ATSchedulingAppointmentExample01
-InstanceOf: Appointment
+InstanceOf: HL7ATSchedulingAppointment
 Usage: #example
 * status = #booked
 * description = "Routineuntersuchung beim Hausarzt"
