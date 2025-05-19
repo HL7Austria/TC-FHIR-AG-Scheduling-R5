@@ -23,7 +23,7 @@ platform ---> client: Available HealthcareServices
 deactivate platform
 
 user -> client: Select HealthcareService
-client -> platform: Get available Slots
+client -> platform: Get available Schedules
 activate platform
 platform -> schedServ1: Get available Schedules
 activate schedServ1
