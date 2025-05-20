@@ -14,7 +14,7 @@ POST: [baseURL]/Slot/$hold
   <parameter>
     <name value="slot-reference" />
     <valueReference>
-      <reference value="Slt/HL7ATSchedulingSlotExample01-free" />
+      <reference value="Slot/HL7ATSchedulingSlotExample01-free" />
     </valueReference>
   </parameter>
   <parameter>
