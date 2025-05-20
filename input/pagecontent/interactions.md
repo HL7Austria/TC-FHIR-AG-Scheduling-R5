@@ -22,3 +22,5 @@ This implementation guide supports the following interactions for a scheduling p
 {% include interactions/update-appointment.md %}
 ### Find existing Appointments
 {% include interactions/find-existing-appointments.md %}
+### General Information
+{% include interactions/general.md %}
