@@ -19,7 +19,7 @@ POST: [baseURL]/Slot/$hold
   </parameter>
   <parameter>
     <name value="slot-status" />
-    <code value="busy-tentative" />
+    <valueCode value="busy-tentative" />
   </parameter>
 </Parameters>
 ```
