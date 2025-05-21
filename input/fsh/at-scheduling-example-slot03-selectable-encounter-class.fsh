@@ -1,0 +1,22 @@
+Instance: HL7ATSchedulingSlotExample03-selectable-encounterClass
+InstanceOf: HL7ATSchedulingSlot
+Usage: #example
+Description: "A free Slot for booking an Appointment that offers a choice for the encounterClass. It can either be conducted as a virtual visit (e.g. video call) or ambulatory (physically present). "
+* schedule = Reference(Schedule/HL7ATSchedulingScheduleExample01)
+* status = #free
+* start = "2025-09-15T08:00:00Z"
+* end = "2025-09-15T09:00:00Z"
+
+* serviceType.concept.coding.system = "http://hl7.at/fhir/TC-FHIR-AG-Scheduling-R5/R5/ValueSet/AtSchedulingServiceType"
+* serviceType.concept.coding.code = #181
+* serviceType.concept.coding.display = "Rehabilitation Medicine"
+
+* extension[0].url = "http://hl7.at/fhir/TC-FHIR-AG-Scheduling-R5/R5/StructureDefinition/slot-encounter-class"
+* extension[0].valueCodeableConcept.coding[0].system = "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+* extension[0].valueCodeableConcept.coding[0].code = #VR
+* extension[0].valueCodeableConcept.coding[0].display = "virtual"
+
+* extension[1].url = "http://hl7.at/fhir/TC-FHIR-AG-Scheduling-R5/R5/StructureDefinition/slot-encounter-class"
+* extension[1].valueCodeableConcept.coding[0].system = "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+* extension[1].valueCodeableConcept.coding[0].code = #AMB
+* extension[1].valueCodeableConcept.coding[0].display = "ambulatory"

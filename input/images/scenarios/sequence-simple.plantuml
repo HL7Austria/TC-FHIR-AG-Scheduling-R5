@@ -1,0 +1,43 @@
+@startuml
+actor User as user
+participant "Scheduling Client" as client
+participant "Scheduling Server" as server
+
+activate user
+user -> client: Open client
+activate client
+client -> server: Get available HealthcareServices
+activate server
+server ---> client: Available HealthcareServices
+deactivate server
+user -> client: Select HealthcareService
+client -> server: Get available Schedules
+activate server
+server ---> client: Available Schedules
+deactivate server
+client-> server: Get available Slots
+activate server
+server ---> client: Available Slots
+deactivate server
+user -> client: Select slot
+opt holding appointment
+  client -> server: Reserve slot
+  activate server
+  server ---> client: Reserve slot response
+  deactivate server
+end
+opt Patient does not exist
+  user -> client: Enter details
+  client -> server: Create Patient
+  activate server
+  server ---> client: Create Patient response
+  deactivate server
+end
+client -> server: Book appointment
+activate server
+server ---> client: Book appointment response
+client ---> user: Confirm appointment booking
+deactivate server
+deactivate client
+deactivate user
+@enduml
