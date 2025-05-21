@@ -6,7 +6,7 @@ Usage: #example
 * status = #booked
 * appointmentType = $v2-0276#CHECKUP "A routine check-up, such as an annual physical"
 * serviceType.concept.coding.system = "http://hl7.at/fhir/TC-FHIR-AG-Scheduling-R5/R5/ValueSet/AtSchedulingServiceType"
-* serviceType.concept.coding.code = "65"
+* serviceType.concept.coding.code = #65
 * serviceType.concept.coding.display = "Physiotherapy"
 * description = "Routineuntersuchung beim Hausarzt"
 * start = "2025-06-01T09:00:00+02:00"
@@ -21,3 +21,4 @@ Usage: #example
 * participant[+].actor = Reference(Practitioner/HL7ATCorePractitionerExample01) "Melanie Musterärztin"
 * participant[=].required = true
 * participant[=].status = #accepted
+

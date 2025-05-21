@@ -1,0 +1,80 @@
+@startuml
+actor User as user
+participant "Scheduling Client" as client
+participant "Scheduling Platform" as platform
+participant "Scheduling Server 1" as schedServ1
+participant "Scheduling Server 2" as schedServ2
+
+activate user
+user -> client: Open client
+activate client
+client -> platform: Get available HealthcareServices
+activate platform
+platform -> schedServ1: Get available HealthcareServices
+activate schedServ1
+platform -> schedServ2: Get available HealthcareServices
+activate schedServ2
+schedServ1 ---> platform: Available HealthcareServices
+deactivate schedServ1
+schedServ2 ---> platform: Available HealthcareServices
+deactivate schedServ2
+platform ---> client: Available HealthcareServices
+deactivate platform
+
+user -> client: Select HealthcareService
+client -> platform: Get available Schedules
+activate platform
+platform -> schedServ1: Get available Schedules
+activate schedServ1
+platform -> schedServ2: Get available Schedules
+activate schedServ2
+schedServ1 ---> platform: Available Schedules
+deactivate schedServ1
+schedServ2 ---> platform: Available Schedules
+deactivate schedServ2
+
+platform -> schedServ1: Get available Slots
+activate schedServ1
+platform -> schedServ2: Get available Slots
+activate schedServ2
+schedServ1 ---> platform: Available Slots
+deactivate schedServ1
+schedServ2 ---> platform: Available Slots
+deactivate schedServ2
+platform ---> client: Available Slots
+deactivate platform
+
+user -> client: Select slot
+
+opt holding appointment
+  client -> platform: Reserve slot
+  activate platform
+  platform -> schedServ1: Reserve slot
+  activate schedServ1
+  schedServ1 ---> platform: Reserve slot response
+  deactivate schedServ1
+  platform ---> client: Reserve slot response
+  deactivate platform
+end
+
+opt Patient does not exist
+  user -> client: Enter details
+  client -> platform: Create Patient
+  activate platform
+  platform ---> client: Create Patient response
+  deactivate platform
+end
+
+client -> platform: Book appointment
+activate platform
+platform -> schedServ1: Book appointment
+activate schedServ1
+schedServ1 ---> platform: Book appointment response
+deactivate schedServ1
+platform ---> client: Book appointment response
+deactivate platform
+client ---> user: Confirm appointment booking
+
+deactivate client
+deactivate user
+@enduml
