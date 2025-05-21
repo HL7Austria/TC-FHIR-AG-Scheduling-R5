@@ -1,6 +1,3 @@
-### Context
-{% include context.md %}
-
 ### Actors
 {% include actors.md %}
 
