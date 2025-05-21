@@ -1,9 +1,8 @@
 Alias: $v2-0276 = http://terminology.hl7.org/CodeSystem/v2-0276
 
 Instance: HL7ATSchedulingAppointmentExample01
-InstanceOf: Appointment
+InstanceOf: HL7ATSchedulingAppointment
 Usage: #example
-* meta.profile = "http://hl7.at/fhir/TC-FHIR-AG-Scheduling-R5/R5/StructureDefinition/at-scheduling-appointment"
 * status = #booked
 * appointmentType = $v2-0276#CHECKUP "A routine check-up, such as an annual physical"
 * serviceType.concept.coding.system = "http://hl7.at/fhir/TC-FHIR-AG-Scheduling-R5/R5/ValueSet/AtSchedulingServiceType"
