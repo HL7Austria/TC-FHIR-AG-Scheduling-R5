@@ -14,6 +14,9 @@ This guide is based on the <a href="{{site.data.fhir.path}}">FHIR® R5</a> speci
 
 {% include dependency-table-short.xhtml %}
 
+### Known Issues
+In this ImplementationGuide a ValueSet [AT Scheduling Service Type](ValueSet-AtSchedulingServiceType.html) is used in several Profiles. In the future, the ValueSet will contain an extendable set of suggested codes, but creating a single harmonized List with codes from all vendors is out of scope. This ValueSet currenctly only serves as a placeholder and contains a single entry in order to provide usefull examples for the profiles that make use of it.
+ 
 ### Governance
 
 HL7® Austria is an official Affiliate of HL7® International. Within HL7® Austria the technical committee for FHIR® (TC FHIR®) is responsible to promote and disseminate the new upcoming standard HL7® FHIR®.
