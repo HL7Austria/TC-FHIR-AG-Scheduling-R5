@@ -1,5 +1,5 @@
-- name: TC-FHIR-AG-Scheduling-R5 
-- version: 0.1.0
+- name: TC-FHIR-AG-Scheduling-R5 - Ballot - 2025 
+- version: 0.1.0-Informative
 - description: Appointment Management on FHIR
 - last_published: %%date%%
 - branch: %%branch%%
