@@ -16,6 +16,7 @@ This guide is based on the <a href="{{site.data.fhir.path}}">FHIR® R5</a> speci
 
 ### Known Issues
 In this ImplementationGuide a ValueSet [AT Scheduling Service Type](ValueSet-AtSchedulingServiceType.html) is used in several Profiles. In the future, the ValueSet will contain an extendable set of suggested codes, but creating a single harmonized List with codes from all vendors is out of scope. This ValueSet currenctly only serves as a placeholder and contains a single entry in order to provide usefull examples for the profiles that make use of it.
+
 Furthermore, the transmission of notifications or reminders to Patients is out of scope for this ImplementationGuide. While notifications are mentioned in the context of cancellation workflows, the IG does not define mechanisms or channels for directly delivering messages to Patients.
  
 ### Governance
