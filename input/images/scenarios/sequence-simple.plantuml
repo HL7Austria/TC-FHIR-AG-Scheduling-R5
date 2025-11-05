@@ -26,13 +26,6 @@ opt holding appointment
   server ---> client: Reserve slot response
   deactivate server
 end
-opt Patient does not exist
-  user -> client: Enter details
-  client -> server: Create Patient
-  activate server
-  server ---> client: Create Patient response
-  deactivate server
-end
 client -> server: Book appointment
 activate server
 server ---> client: Book appointment response
