@@ -4,6 +4,8 @@ Due to the potentially large amount of data, paging SHALL be used for all intera
 #### Messages
 In typical appointment booking systems appointment-related messages are sent via various channels (e.g. email, text message). Because this implementation guide allows chaining multiple Scheduling Servers cascadingly, the necessity arises to coordinate which Scheduling Server is resoponsible for sending those messages. By default the Scheduling Server, that also persists Appointments, SHOULD be the one that also sends the Appointment-related messages. However service providers of Scheduling Servers MAY also have different bilateral arrangements, which are managed outside of the scope of this implementation guide.
 
+Note: The actual transmission of notifications or reminders to Patients (e.g., sending SMS or emails) is out of scope of this implementation guide.
+
 #### HTTP return preference
 Scheduling Clients SHALL use the following HTTP return preference for requests of standard `POST` and `PUT` interactions:
 
