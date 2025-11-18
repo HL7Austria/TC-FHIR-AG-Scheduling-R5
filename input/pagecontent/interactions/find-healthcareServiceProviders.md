@@ -1,6 +1,6 @@
 <figure><img src="interactions/find-healthcareService-Providers.svg"></figure>
 
-Depending on the scheduling scenario that is implementented ("peer-to-peer" appointment booking, availability of a central platform for scheduling, ...), it might be necessary not only to find healthcare services that are offerd but also to find out which medical institution is offering them. Additionally, finding healthcare service providers that offer a service close to a location or within a certain zip-code area might be useful as well.
+Depending on the scheduling scenario that is implementented ("peer-to-peer" appointment booking, availability of a central platform for scheduling, ...), it might not only be necessary to find offered healthcare services, but also to find the medical institution offering the respective service. Additionally, finding healthcare service providers that offer a service close to a location or within a certain zip-code area might be useful as well.
 
 For such a purpose, this IG provides a new operation called [$findHSP](OperationDefinition-healthcareService-provider-find.html) (find Healthcare Service Provider).
 

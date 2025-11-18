@@ -8,7 +8,7 @@ The Scheduling Client is expected to convey the outcome to the user who requeste
 
 <h5> Pre-Conditions </h5>
 The following pre-conditions must be fullfilled for the $book operation to be successful:
-- The referenced patient in ```Appointment.subject``` SHALL already exist on or must be known to the Scheduling Server
+- The referenced patient in ```Appointment.subject``` SHALL already exist on, or must be known to the Scheduling Server
 - If a HealthcareService is provided in ```Appointment.serviceType``` it SHALL already exist on or must be known to and supported by the Scheduling Server
 - If a Slot is provided in ```Appointment.slot``` the Slot SHALL exist and must be available for booking on the Scheduling Server
 

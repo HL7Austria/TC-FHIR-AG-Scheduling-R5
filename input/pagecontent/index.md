@@ -1,8 +1,8 @@
 ### Introduction
 
-This FHIR Implementation Guide (IG) provides a structured framework for software vendors who aim to offer online appointment booking solutions in Austria. It supports multiple booking scenarios, including the [central scheduling platform](scenarios.html#central-scheduling-platform) model and [simple appointment booking](scenarios.html#simple-appointment-booking).
+This FHIR Implementation Guide (IG) provides a structured framework for software vendors that aim to offer online appointment booking solutions in Austria. It supports multiple booking scenarios, including the [central scheduling platform](scenarios.html#central-scheduling-platform) model and [simple appointment booking](scenarios.html#simple-appointment-booking).
 
-It is inspired by the [ISiK Modul "Terminplanung"](https://simplifier.net/isik-terminplanung-v4/~introduction) and [IHE Scheduling](https://build.fhir.org/ig/IHE/ITI.Scheduling/index.html) implementation guides and leverages the FHIR Resources [Schedule](https://www.hl7.org/fhir/schedule.html) and [Slot](https://www.hl7.org/fhir/slot.html) for appointment booking. Additionally, it introduces operations for searching for healthcare service providers and for temporarily reserving bookable slots. Furthermore, this guide extends support to virtual appointments, including video call consultations, enabling healthcare providers to seamlessly integrate them into the booking process.
+It is inspired by the [ISiK Modul "Terminplanung"](https://simplifier.net/isik-terminplanung-v4/~introduction) and [IHE Scheduling](https://build.fhir.org/ig/IHE/ITI.Scheduling/index.html) implementation guides and leverages the FHIR Resources [Schedule](https://www.hl7.org/fhir/schedule.html) and [Slot](https://www.hl7.org/fhir/slot.html) for appointment booking. Additionally, it introduces operations for searching for healthcare service providers and for temporarily reserving bookable slots. Furthermore, this guide extends support to virtual appointments, including video consultations, enabling healthcare providers to seamlessly integrate them into the booking process.
 
 This version, 0.1.0 - Informative, is still in its early stage and serves as a reference point for software vendors. The goal is to help vendors verify whether their use cases are sufficiently supported within this framework, fostering interoperability and streamlined appointment scheduling processes across healthcare systems.
 
@@ -15,7 +15,7 @@ This guide is based on the <a href="{{site.data.fhir.path}}">FHIR® R5</a> speci
 {% include dependency-table-short.xhtml %}
 
 ### Known Issues
-In this ImplementationGuide a ValueSet [AT Scheduling Service Type](ValueSet-AtSchedulingServiceType.html) is used in several Profiles. In the future, the ValueSet will contain an extendable set of suggested codes, but creating a single harmonized List with codes from all vendors is out of scope. This ValueSet currenctly only serves as a placeholder and contains a single entry in order to provide usefull examples for the profiles that make use of it.
+In this ImplementationGuide a ValueSet [AT Scheduling Service Type](ValueSet-AtSchedulingServiceType.html) is used in several Profiles. In the future, the ValueSet will contain an extendable set of suggested codes, but creating a single harmonized List with codes from all vendors is out of scope. This ValueSet currently only serves as a placeholder and contains a single entry in order to provide useful examples for the profiles that make use of it.
  
 ### Governance
 
