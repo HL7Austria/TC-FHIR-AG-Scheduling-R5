@@ -47,6 +47,8 @@ dependencies:
 pages:
   index.md:
     title: Home
+  actors.md:
+    title: Actors
   scenarios.md:
     title: Scenarios
   interactions.md:
