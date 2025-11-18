@@ -22,7 +22,7 @@ Usage: #definition
 * parameter[=].use = #in
 * parameter[=].min = 0
 * parameter[=].max = "1"
-* parameter[=].documentation = "The full HealthcareService resource can be provided for this operation. The HealthcareService SHALL have be active (HealthcareService.active=true). "
+* parameter[=].documentation = "The full HealthcareService resource can be provided for this operation. The HealthcareService SHALL be active (HealthcareService.active=true). "
 * parameter[=].type = #Reference
 * parameter[=].targetProfile = Canonical(HL7ATSchedulingHealthcareService)
 * parameter[+].name = #healthcareService-category
