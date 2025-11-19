@@ -47,7 +47,7 @@ deactivate platform
 
 user -> client: Select slot requiring external scheduling
 client -> user: Redirect to external scheduling client
-destroy client
+deactivate client
 
 user -> clientExternal: Book appointment
 activate clientExternal
