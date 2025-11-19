@@ -45,7 +45,7 @@ POST: [baseURL]/Appointment/$book
                     <display value="A routine check-up, such as an annual physical"/>
                 </coding>
             </appointmentType>
-            <description value="Routineuntersuchung beim Hausarzt"/>
+            <description value="Physiotherapie - Einzelbehandlung 30 Minuten"/>
             <start value="2025-06-01T09:00:00+02:00"/>
             <end value="2025-06-01T09:30:00+02:00"/>
             <minutesDuration value="30"/>
@@ -108,7 +108,7 @@ HTTP 200 OK
                     <display value="A routine check-up, such as an annual physical"/>
                 </coding>
             </appointmentType>
-            <description value="Routineuntersuchung beim Hausarzt"/>
+            <description value="Physiotherapie - Einzelbehandlung 30 Minuten"/>
             <start value="2025-06-01T09:00:00+02:00"/>
             <end value="2025-06-01T09:30:00+02:00"/>
             <minutesDuration value="30"/>
