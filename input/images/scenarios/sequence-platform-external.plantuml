@@ -9,11 +9,11 @@ participant "External Scheduling Client" as clientExternal
 activate user
 user -> client: Open client
 activate client
-client -> platform: Get available HealthcareServices
+client -> platform: Find available HealthcareServices
 activate platform
-platform -> schedServ1: Get available HealthcareServices
+platform -> schedServ1: Find available HealthcareServices
 activate schedServ1
-platform -> schedServ2: Get available HealthcareServices
+platform -> schedServ2: Find available HealthcareServices
 activate schedServ2
 schedServ1 ---> platform: Available HealthcareServices
 deactivate schedServ1
@@ -23,20 +23,20 @@ platform ---> client: Available HealthcareServices
 deactivate platform
 
 user -> client: Select HealthcareService
-client -> platform: Get available Schedules
+client -> platform: Find available Schedules
 activate platform
-platform -> schedServ1: Get available Schedules
+platform -> schedServ1: Find available Schedules
 activate schedServ1
-platform -> schedServ2: Get available Schedules
+platform -> schedServ2: Find available Schedules
 activate schedServ2
 schedServ1 ---> platform: Available Schedules
 deactivate schedServ1
 schedServ2 ---> platform: Available Schedules
 deactivate schedServ2
 
-platform -> schedServ1: Get available Slots
+platform -> schedServ1: Find available Slots
 activate schedServ1
-platform -> schedServ2: Get available Slots
+platform -> schedServ2: Find available Slots
 activate schedServ2
 schedServ1 ---> platform: Available Slots
 deactivate schedServ1
