@@ -23,6 +23,8 @@ Description:    "HL7® Austria FHIR® Scheduling Profile for appointment data in
 
 * subject only Reference(HL7ATCorePatient or Group)
 
+* extension contains AppointmentPostponementReasonExt named postponementReason 0..1
+
 // Participant slicing Inspired by https://github.com/gematik/spec-ISiK-Terminplanung/blob/main-stufe-4/Resources/input/fsh/ISiKTermin.fsh
 * participant MS
   * actor 1..1 MS
