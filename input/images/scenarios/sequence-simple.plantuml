@@ -6,16 +6,16 @@ participant "Scheduling Server" as server
 activate user
 user -> client: Open client
 activate client
-client -> server: Get available HealthcareServices
+client -> server: Find available HealthcareServices
 activate server
 server ---> client: Available HealthcareServices
 deactivate server
 user -> client: Select HealthcareService
-client -> server: Get available Schedules
+client -> server: Find available Schedules
 activate server
 server ---> client: Available Schedules
 deactivate server
-client-> server: Get available Slots
+client-> server: Find available Slots
 activate server
 server ---> client: Available Slots
 deactivate server
