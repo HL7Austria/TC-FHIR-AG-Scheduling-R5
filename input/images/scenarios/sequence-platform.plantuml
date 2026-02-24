@@ -57,14 +57,6 @@ opt holding appointment
   deactivate platform
 end
 
-opt Patient does not exist
-  user -> client: Enter details
-  client -> platform: Create Patient
-  activate platform
-  platform ---> client: Create Patient response
-  deactivate platform
-end
-
 client -> platform: Book appointment
 activate platform
 platform -> schedServ1: Book appointment

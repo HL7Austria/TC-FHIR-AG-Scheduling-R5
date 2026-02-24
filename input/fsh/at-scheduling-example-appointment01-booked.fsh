@@ -8,7 +8,7 @@ Usage: #example
 * serviceType.concept.coding.system = "http://hl7.at/fhir/TC-FHIR-AG-Scheduling-R5/R5/ValueSet/AtSchedulingServiceType"
 * serviceType.concept.coding.code = #65
 * serviceType.concept.coding.display = "Physiotherapy"
-* description = "Routineuntersuchung beim Hausarzt"
+* description = "Physiotherapie - Einzelbehandlung 30 Minuten"
 * start = "2025-06-01T09:00:00+02:00"
 * end = "2025-06-01T09:30:00+02:00"
 * minutesDuration = 30
