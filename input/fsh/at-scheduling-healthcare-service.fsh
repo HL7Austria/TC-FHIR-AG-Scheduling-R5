@@ -16,3 +16,5 @@ Description:    "HL7® Austria FHIR® Scheduling Profile for healthcareservice d
 
 // Add binding to AtSchedulungServiceType
 * type from AtSchedulingServiceType (extensible)
+
+* extension contains CancellationPolicy named cancellationPolicy 0..1
