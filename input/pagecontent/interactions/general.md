@@ -6,6 +6,10 @@ In typical appointment booking systems appointment-related messages are sent via
 
 Note: The actual transmission of notifications or reminders to Patients (e.g., sending SMS or emails) is out of scope of this implementation guide.
 
+#### Usage of logical IDs vs. Identifiers
+
+When referencing resources across systems, implementers should prefer identifiers over logical IDs. Logical IDs (the ```Resource.id``` element) are unique only within a single FHIR server and may change if the resource is copied or migrated. In contrast, identifiers (```Resource.identifier```) are stable values designed for use across different systems and contexts (e.g. social insurance number). Using identifiers promotes interoperability, ensuring consistent and reliable linkage of data between independent FHIR implementations.
+
 #### HTTP return preference
 Scheduling Clients SHALL use the following HTTP return preference for requests of standard `POST` and `PUT` interactions:
 
