@@ -1,0 +1,6 @@
+== Suppressed Messages ==
+
+# ==== These are known issues with the FHIR Core R5 specification - the fix will be provided with R6 ===
+The link 'http://terminology.hl7.org/ValueSet/EncounterClass' for "http://terminology.hl7.org/ValueSet/EncounterClass" cannot be resolved
+Canonical URL 'http://terminology.hl7.org/ValueSet/EncounterClass' kann nicht aufgelöst werden
+Canonical URL 'http://terminology.hl7.org/ValueSet/EncounterClass' cannot be resolved

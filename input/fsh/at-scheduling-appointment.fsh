@@ -10,6 +10,9 @@ Id:             at-scheduling-appointment
 Title:          "HL7® AT Scheduling Appointment Profile"
 Description:    "HL7® Austria FHIR® Scheduling Profile for appointment data in Austria."
 
+// Due to a bug in the FHIR Core R5 specification, the class element is not properly bound to the EncounterClass value set
+// Binding to the correct ValueSet in scope of this profile is a workaround, the actual fix will be provided with R6
+* class from http://terminology.hl7.org/ValueSet/encounter-class (extensible)
 // Replace references to FHIR resources with references to profiles
 * serviceType only CodeableReference(HL7ATSchedulingHealthcareService)
 // Add binding to AtSchedulungServiceType
