@@ -15,10 +15,10 @@ Usage: #example
 * created = "2025-05-10T14:23:00+02:00"
 * slot = Reference(Slot/HL7ATSchedulingSlotExample01-free)
 * subject.reference = "Patient/HL7ATCorePatientExample01"
-* participant[0].actor = Reference(Patient/HL7ATCorePatientExample01) "Max Mustermann"
-* participant[=].required = true
-* participant[=].status = #accepted
-* participant[+].actor = Reference(Practitioner/HL7ATCorePractitionerExample01) "Melanie Musterärztin"
-* participant[=].required = true
-* participant[=].status = #accepted
+* participant[HL7ATCorePatient].actor = Reference(Patient/HL7ATCorePatientExample01) "Max Mustermann"
+* participant[HL7ATCorePatient].required = true
+* participant[HL7ATCorePatient].status = #accepted
+* participant[HL7ATCorePractitioner].actor = Reference(Practitioner/HL7ATCorePractitionerExample01) "Melanie Musterärztin"
+* participant[HL7ATCorePractitioner].required = true
+* participant[HL7ATCorePractitioner].status = #accepted
 
