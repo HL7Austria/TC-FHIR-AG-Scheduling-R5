@@ -3,19 +3,19 @@ The following diagram shows how the Ressources and Profiles relevant to this Imp
 ```mermaid
 flowchart LR
   %% Core scheduling backbone
-  Schedule["**Schedule**<br/><a href='/StructureDefinition-at-scheduling-schedule.html'>HL7® AT Scheduling Schedule Profile</a>"]:::sched
-  Slot["**Slot**<br/><a href='/StructureDefinition-at-scheduling-slot.html'>HL7® AT Scheduling Slot Profile</a>"]:::slot
-  Appointment["**Appointment**<br/><a href='/StructureDefinition-at-scheduling-appointment.html'>HL7® AT Scheduling Appointment Profile</a>"]:::appt
+  Schedule["**Schedule**<br/>HL7® AT Scheduling Schedule Profile"]:::sched
+  Slot["**Slot**<br/>HL7® AT Scheduling Slot Profile"]:::slot
+  Appointment["**Appointment**<br/>HL7® AT Scheduling Appointment Profile"]:::appt
 
   %% Service + participants
-  HealthcareService["**HealthcareService**<br/><a href='/StructureDefinition-at-scheduling-healthcareService.html'>HL7® AT Scheduling HealthcareService Profile</a>"]:::svc
+  HealthcareService["**HealthcareService**<br/>HL7® AT Scheduling HealthcareService Profile"]:::svc
 
-  Patient["**Patient**<br/><a href='https://fhir.hl7.at/HL7-AT-FHIR-Core-R5/StructureDefinition-at-core-patient.html'>HL7® AT Core Patient Profile</a>"]:::core
-  RelatedPerson["**RelatedPerson**<br/><a href='https://hl7.org/fhir/relatedperson.html'>FHIR R5 RelatedPerson</a>"]:::core
-  Practitioner["**Practitioner**<br/><a href='https://fhir.hl7.at/HL7-AT-FHIR-Core-R5/StructureDefinition-at-core-practitioner.html'>HL7® AT Core Practitioner Profile</a>"]:::core
-  PractitionerRole["**PractitionerRole**<br/><a href='https://fhir.hl7.at/HL7-AT-FHIR-Core-R5/StructureDefinition-at-core-practitionerRole.html'>HL7® AT Core PractitionerRole Profile</a>"]:::core
-  Organization["**Organization**<br/><a href='https://fhir.hl7.at/HL7-AT-FHIR-Core-R5/StructureDefinition-at-core-organization.html'>HL7® AT Core Organization Profile</a>"]:::core
-  Location["**Location**<br/><a href='https://fhir.hl7.at/r5-core-main/StructureDefinition-at-core-location.html'>HL7® AT Core Location Profile</a>"]:::core
+  Patient["**Patient**<br/>HL7® AT Core Patient Profile"]:::core
+  RelatedPerson["**RelatedPerson**<br/>FHIR R5 RelatedPerson"]:::core
+  Practitioner["**Practitioner**<br/>HL7® AT Core Practitioner Profile"]:::core
+  PractitionerRole["**PractitionerRole**<br/>HL7® AT Core PractitionerRole Profile"]:::core
+  Organization["**Organization**<br/>HL7® AT Core Organization Profile"]:::core
+  Location["**Location**<br/>HL7® AT Core Location Profile"]:::core
 
   %% Relationships Schedule/Slot/Appointment
   Schedule -->|"defines availability for"| Slot
@@ -48,15 +48,25 @@ flowchart LR
   %% Location context
   Location -->|"managingOrganization"| Organization
 
- %% Styles
+  %% Clickable links
+  click Schedule href "/StructureDefinition-at-scheduling-schedule.html" "Open Schedule profile" _self
+  click Slot href "/StructureDefinition-at-scheduling-slot.html" "Open Slot profile" _self
+  click Appointment href "/StructureDefinition-at-scheduling-appointment.html" "Open Appointment profile" _self
+  click HealthcareService href "/StructureDefinition-at-scheduling-healthcareService.html" "Open HealthcareService profile" _self
+
+  click Patient href "https://fhir.hl7.at/HL7-AT-FHIR-Core-R5/StructureDefinition-at-core-patient.html" "Open Patient profile" _blank
+  click RelatedPerson href "https://hl7.org/fhir/relatedperson.html" "Open RelatedPerson resource" _blank
+  click Practitioner href "https://fhir.hl7.at/HL7-AT-FHIR-Core-R5/StructureDefinition-at-core-practitioner.html" "Open Practitioner profile" _blank
+  click PractitionerRole href "https://fhir.hl7.at/HL7-AT-FHIR-Core-R5/StructureDefinition-at-core-practitionerRole.html" "Open PractitionerRole profile" _blank
+  click Organization href "https://fhir.hl7.at/HL7-AT-FHIR-Core-R5/StructureDefinition-at-core-organization.html" "Open Organization profile" _blank
+  click Location href "https://fhir.hl7.at/r5-core-main/StructureDefinition-at-core-location.html" "Open Location profile" _blank
+
+  %% Styles
   classDef sched fill:#e1f5fe
   classDef slot fill:#f3e5f5
   classDef appt fill:#e8f5e8
   classDef svc fill:#fff3e0
   classDef core fill:#f5f5f5
-
-
-````
 
 | Resource          | Description                                                                      |
 | ----------------- | -------------------------------------------------------------------------------- |
