@@ -1,6 +1,8 @@
 #### Overview of relevant Ressources and Profiles
 The following diagram shows how the Ressources and Profiles relevant to this Implementation Guide are related to each other.
+
 ```mermaid
+
 flowchart LR
   %% Core scheduling backbone
   Schedule["**Schedule**<br/>HL7® AT Scheduling Schedule Profile"]:::sched
