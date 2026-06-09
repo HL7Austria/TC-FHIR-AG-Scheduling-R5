@@ -1,7 +1,6 @@
 #### Overview of relevant Ressources and Profiles
 The following diagram shows how the Ressources and Profiles relevant to this Implementation Guide are related to each other.
-
-```mermaid
+<pre class="mermaid">
 
 flowchart LR
   %% Core scheduling backbone
@@ -69,7 +68,7 @@ flowchart LR
   classDef appt fill:#e8f5e8
   classDef svc fill:#fff3e0
   classDef core fill:#f5f5f5
-```
+</pre>
 
 | Resource          | Description                                                                      |
 | ----------------- | -------------------------------------------------------------------------------- |
