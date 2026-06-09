@@ -69,6 +69,7 @@ flowchart LR
   classDef appt fill:#e8f5e8
   classDef svc fill:#fff3e0
   classDef core fill:#f5f5f5
+```
 
 | Resource          | Description                                                                      |
 | ----------------- | -------------------------------------------------------------------------------- |
