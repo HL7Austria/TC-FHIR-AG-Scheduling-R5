@@ -1,6 +1,8 @@
+This interaction moves an existing Appointment to a different time by changing its ```start```, ```end```, optionally ```minutesDuration``` and the referenced ```slot```. To change other information of the Appointment, use the [Update Appointment](interactions.html#update-appointment-information) interaction instead.
+
 #### Postponement by Scheduling Client
 <figure><img src="interactions/postpone-appointment-client.svg"></figure>
-To postpone an Appointment, the Scheduling Client sends an [HL7® AT Scheduling Appointment](StructureDefinition-at-scheduling-appointment.html) with updated values for ```start```, ```end``` and optionally ```minutesDuration```. The Scheduling Server then returns the updated Appointment or an OperationOutcome in case of error. The Scheduling Server responds with the Appointment resource or an OperationOutcome in case of error.
+To postpone an Appointment, the Scheduling Client sends an [HL7® AT Scheduling Appointment](StructureDefinition-at-scheduling-appointment.html) with updated values for ```start```, ```end```, optionally ```minutesDuration``` and the referenced ```slot```. The Scheduling Server responds with the updated Appointment resource or an OperationOutcome in case of error.
 
 Because postponing an Appointment changes the time it occupies, the Slots referenced by the Appointment are affected as well. If the postponement is successful, the status of the Slot to which the Appointment previously referred should be set to free again, ```Slot.status=free```, while the Slot covering the new time should be marked as occupied, ```Slot.status=busy```. Keeping the Slot statuses in sync with the Appointment is the responsibility of the Scheduling Server.
 
