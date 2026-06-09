@@ -4,19 +4,19 @@ The following diagram shows how the Ressources and Profiles relevant to this Imp
 
 flowchart LR
   %% Core scheduling backbone
-  Schedule["**Schedule**<br/>HL7® AT Scheduling Schedule Profile"]:::sched
-  Slot["**Slot**<br/>HL7® AT Scheduling Slot Profile"]:::slot
-  Appointment["**Appointment**<br/>HL7® AT Scheduling Appointment Profile"]:::appt
+  Schedule["Schedule<br/>HL7 AT Scheduling Schedule Profile"]:::sched
+  Slot["Slot<br/>HL7 AT Scheduling Slot Profile"]:::slot
+  Appointment["Appointment<br/>HL7 AT Scheduling Appointment Profile"]:::appt
 
   %% Service + participants
-  HealthcareService["**HealthcareService**<br/>HL7® AT Scheduling HealthcareService Profile"]:::svc
+  HealthcareService["HealthcareService<br/>HL7 AT Scheduling HealthcareService Profile"]:::svc
 
-  Patient["**Patient**<br/>HL7® AT Core Patient Profile"]:::core
-  RelatedPerson["**RelatedPerson**<br/>FHIR R5 RelatedPerson"]:::core
-  Practitioner["**Practitioner**<br/>HL7® AT Core Practitioner Profile"]:::core
-  PractitionerRole["**PractitionerRole**<br/>HL7® AT Core PractitionerRole Profile"]:::core
-  Organization["**Organization**<br/>HL7® AT Core Organization Profile"]:::core
-  Location["**Location**<br/>HL7® AT Core Location Profile"]:::core
+  Patient["Patient<br/>HL7 AT Core Patient Profile"]:::core
+  RelatedPerson["RelatedPerson<br/>FHIR R5 RelatedPerson"]:::core
+  Practitioner["Practitioner<br/>HL7 AT Core Practitioner Profile"]:::core
+  PractitionerRole["PractitionerRole<br/>HL7 AT Core PractitionerRole Profile"]:::core
+  Organization["Organization<br/>HL7 AT Core Organization Profile"]:::core
+  Location["Location<br/>HL7 AT Core Location Profile"]:::core
 
   %% Relationships Schedule/Slot/Appointment
   Schedule -->|"defines availability for"| Slot
