@@ -1,2 +1,39 @@
-<!-- TODO: Replace this placeholder with the list of contributors (all workgroup members). -->
-*All members of the HL7® Austria TC FHIR® workgroup that contributed to this implementation guide will be listed here.*
+The following members of the workgroup delivered input to this implementation guide, such as use cases, conceptualization and feedback:
+
+- Sebastian Altenhuber
+- Rainer Anzböck
+- Robert Bauchinger
+- Christian Bauer
+- Michael Baumgartner
+- Armin Berger
+- Stefan Beyer
+- Samuel Brendler
+- Martin Bürgmann
+- Christopher Csenar
+- Reinhard Egelkraut
+- Minas Gerges
+- Regina Gittmaier
+- Andreas Goltz
+- Christian Gossy
+- Karin Haider
+- Emergo (Haider)
+- Dietmar Keimel
+- Daniel Latikaynen
+- Christian Lexer
+- Anna Lin
+- Patrick Mangesius
+- Alexander Mense
+- Stefan Rausch-Schott
+- Martin Reitstätter
+- Valentin Rothensteiner
+- Wolfgang Schenkermayr
+- Hans-Jürgen Schiller
+- Judith Schinerl
+- Hans Sheu
+- Manfred Steinlechner
+- Gerhard Stimac
+- Michel Stöllner
+- Melanie Strasser
+- Stefan Suhrer
+- Christoph Unfried
+- Günter Walser
