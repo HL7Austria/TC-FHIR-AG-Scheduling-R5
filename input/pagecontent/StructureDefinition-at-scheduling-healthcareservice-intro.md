@@ -1,1 +1,1 @@
-This Profile is used in the [Find available HealthcareServices Interaction](interactions.html#find-available-healthcareservices).
+This Profile is used in the [Find available HealthcareServices Interaction](functional-transactions.html#find-available-healthcareservices).

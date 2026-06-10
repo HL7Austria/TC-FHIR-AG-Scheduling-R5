@@ -47,13 +47,21 @@ dependencies:
 pages:
   index.md:
     title: Home
-  actors.md:
-    title: Actors
-  scenarios.md:
-    title: Scenarios
-  interactions.md:
-    title: Interactions
-  
+  introduction.md:
+    title: Introduction
+  functional-transactions.md:
+    title: Transactions
+  functional-system-actors.md:
+    title: System Actors
+  functional-design-choices.md:
+    title: Design Choices
+  use-case-simple-appointment-booking.md:
+    title: Simple Appointment Booking
+  use-case-central-scheduling-platform.md:
+    title: Central Scheduling Platform
+  about.md:
+    title: About
+
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview
@@ -84,9 +92,16 @@ pages:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Scenarios: scenarios.html
-  Interactions: interactions.html
+  Introduction: introduction.html
+  Functional:
+    Transactions: functional-transactions.html
+    System Actors: functional-system-actors.html
+    Design Choices: functional-design-choices.html
+  Use Cases:
+    Simple Appointment Booking: use-case-simple-appointment-booking.html
+    Central Scheduling Platform: use-case-central-scheduling-platform.html
   Artifacts: artifacts.html
+  About: about.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
