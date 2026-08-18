@@ -53,7 +53,7 @@
     <tr>
       <td markdown="span">[status](https://hl7.org/fhir/R5/slot-search.html#Slot-status)</td>
       <td markdown="span">[token](https://hl7.org/fhir/R5/search.html#token)</td>
-      <td markdown="span">The free/busy status of the appointment. Shall always be "free"</td>
+      <td markdown="span">The free/busy status of the appointment. Shall always be `free`</td>
       <td markdown="span">Slot.status</td>
       <td markdown="span"></td>
     </tr>

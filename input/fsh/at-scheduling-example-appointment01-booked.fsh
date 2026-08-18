@@ -5,7 +5,7 @@ InstanceOf: HL7ATSchedulingAppointment
 Usage: #example
 * status = #booked
 * appointmentType = $v2-0276#CHECKUP "A routine check-up, such as an annual physical"
-* serviceType.concept.coding.system = "http://hl7.at/fhir/TC-FHIR-AG-Scheduling-R5/R5/ValueSet/AtSchedulingServiceType"
+* serviceType.concept.coding.system = "http://terminology.hl7.org/CodeSystem/service-type"
 * serviceType.concept.coding.code = #65
 * serviceType.concept.coding.display = "Physiotherapy"
 * description = "Physiotherapie - Einzelbehandlung 30 Minuten"
