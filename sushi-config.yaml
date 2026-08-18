@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.at.fhir.tc.wg.scheduling.r5
-canonical: http://hl7.at/fhir/TC-FHIR-AG-Scheduling-R5/R5
+canonical: https://fhir.hl7.at/tc/wg/scheduling/r5
 name: TC-FHIR-AG-Scheduling-R5
 title: Austrian Appointment Scheduling (R5)
 # description: Example Implementation Guide for getting started with SUSHI
