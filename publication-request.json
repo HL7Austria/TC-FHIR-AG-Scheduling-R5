@@ -1,0 +1,14 @@
+{
+    "package-id" : "hl7.at.fhir.tc.wg.scheduling.r5",
+    "version" : "1.0.0",
+    "path" : "https://fhir.hl7.at/tc/wg/scheduling/r5/1.0.0",
+    "mode" : "milestone",
+    "status" : "release",
+    "sequence" : "Informative",
+    "desc" : "",
+    "first" : true,
+    "title" : "Austrian Appointment Scheduling (R5)",
+    "ci-build" : "https://build.fhir.org/ig/HL7Austria/TC-FHIR-AG-Scheduling-R5/",
+    "introduction" : "",
+    "category" : "Booking Service"
+}
