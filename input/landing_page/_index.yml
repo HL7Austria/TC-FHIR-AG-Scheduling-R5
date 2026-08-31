@@ -4,3 +4,4 @@
 - last_published: %%date%%
 - branch: %%branch%%
 - type: draft
+- repo: %%repo%%
