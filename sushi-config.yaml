@@ -9,7 +9,7 @@ name: TC-FHIR-AG-Scheduling-R5
 title: Austrian Appointment Scheduling (R5)
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
-version: 0.2.0
+version: 1.0.0
 fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
 releaseLabel: Informative

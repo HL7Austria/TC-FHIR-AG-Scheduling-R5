@@ -4,7 +4,7 @@ This FHIR Implementation Guide (IG) provides a structured framework for software
 
 This guide leverages the FHIR Resources [Schedule](https://www.hl7.org/fhir/schedule.html) and [Slot](https://www.hl7.org/fhir/slot.html) for appointment booking. Additionally, it introduces operations for searching for healthcare service providers and for temporarily reserving bookable slots. Furthermore, this guide extends support to virtual appointments, including video consultations, enabling healthcare providers to seamlessly integrate them into the booking process.
 
-This version, 0.2.0 - Informative, is still in its early stage and serves as a reference point for software vendors. The goal is to help vendors verify whether their use cases are sufficiently supported within this framework, fostering interoperability and streamlined appointment scheduling processes across healthcare systems.
+This version, 1.0.0 - Informative, is still in its early stage and serves as a reference point for software vendors. The goal is to help vendors verify whether their use cases are sufficiently supported within this framework, fostering interoperability and streamlined appointment scheduling processes across healthcare systems.
 
 ### Background
 
