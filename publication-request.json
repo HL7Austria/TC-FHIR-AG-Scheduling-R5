@@ -10,5 +10,8 @@
     "title" : "Austrian Appointment Scheduling (R5)",
     "ci-build" : "https://build.fhir.org/ig/HL7Austria/TC-FHIR-AG-Scheduling-R5/",
     "introduction" : "The Austrian Appointment Scheduling Implementation Guide (IG) defines a standardized, FHIR®-based approach for online appointment booking across the Austrian healthcare system.",
+    "registry-description" : "The Austrian Appointment Scheduling Implementation Guide (IG) defines a standardized, FHIR®-based approach for online appointment booking across the Austrian healthcare system.",
+    "registry-country" : "AT",
+    "registry-authority" : "HL7 Austria",
     "category" : "Booking Service"
 }
