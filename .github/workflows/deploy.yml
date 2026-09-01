@@ -41,6 +41,7 @@ jobs:
         _format-key: '%%key%%'
         branch: ${{ steps.extract_branch.outputs.branch }}
         date: ${{ steps.extract_date.outputs.date }}
+        repo: ${{ github.event.repository.name }}
         _output-file: input/landing_page/_index.yml
 
     - name: Install NPM
